@@ -1,0 +1,38 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background -->
+    <item android:drawable="@android:color/transparent" />
+
+    <!-- Border -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorBody" />
+            <corners android:radius="40dp" />
+            <size android:width="160dp" android:height="80dp" />
+        </shape>
+    </item>
+
+    <!-- Toggle Indicator (Unchecked) -->
+    <item android:left="15dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/colorBody" />
+            <size android:width="50dp" android:height="50dp" />
+        </shape>
+    </item>
+
+    <!-- Checked Background -->
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorCheckboxChecked" />
+            <corners android:radius="40dp" />
+            <size android:width="160dp" android:height="80dp" />
+        </shape>
+    </item>
+
+    <!-- Toggle Indicator (Checked) -->
+    <item android:left="85dp" android:state_checked="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/colorBody" />
+            <size android:width="50dp" android:height="50dp" />
+        </shape>
+    </item>
+</layer-list>

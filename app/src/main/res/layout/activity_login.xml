@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:background="@drawable/bg_login"
+    tools:context=".LoginActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        android:backgroundTint="#80FFFFFF"
+        app:cardElevation="0dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"
+                android:fontFamily="@font/poppins_bold"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                />
+
+            <EditText
+                android:id="@+id/loginEmail"
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="48dp"
+                android:background="@drawable/custom_edittext_login"
+                android:elevation="8dp"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:padding="8dp"
+                android:hint="@string/email"
+                android:fontFamily="@font/poppins_medium"
+                android:textColorHint="@color/hintColor"
+                android:drawablePadding="8dp"
+                android:inputType="textEmailAddress"
+                android:textColor="#0B0B0B" />
+
+            <EditText
+                android:id="@+id/loginPassword"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="48dp"
+                android:background="@drawable/custom_edittext_login"
+                android:elevation="8dp"
+                android:padding="8dp"
+                android:drawableLeft="@drawable/outline_lock_24"
+                android:drawablePadding="8dp"
+                android:hint="Password"
+                android:fontFamily="@font/poppins_medium"
+                android:textColorHint="@color/hintColor"
+                android:inputType="textPassword"
+                android:textColor="#0B0B0B" />
+
+            <TextView
+                android:id="@+id/forgotPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password?"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/red"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="180dp"
+                />
+
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:text="LOGIN"
+                android:fontFamily="@font/poppins_bold"
+                android:background="@drawable/signin_btn"
+                android:textColor="@color/white"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account yet?"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                />
+
+            <Button
+                android:id="@+id/createAcc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:text="Register Now"
+                android:fontFamily="@font/poppins_bold"
+                android:background="@drawable/signup_btn"
+                android:textColor="@color/white"
+                android:layout_gravity="center"/>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

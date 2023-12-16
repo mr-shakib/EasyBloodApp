@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "500286157043",
+    "project_id": "easyblood-12268",
+    "storage_bucket": "easyblood-12268.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500286157043:android:376b717ebf95d3995f4786",
+        "android_client_info": {
+          "package_name": "com.example.easyblood"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBD9EpYnRQnT6vHq5_2BZsSLNUNdwWM7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

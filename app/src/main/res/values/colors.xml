@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#097969</color>
+    <color name="aquamarine">#7FFFD4</color>
+    <color name="colorBody">#fafafa</color>
+    <color name="colorTextDefault">#1d1d1f</color>
+    <color name="colorTextSecondary">#86868b</color>
+    <color name="colorBackgroundDark">#161616</color>
+    <color name="colorTextDefaultDark">#f5f5f7</color>
+    <color name="colorCheckboxChecked">#097969</color>
+    <color name="red">#660000</color>
+    <color name="transparent_black_ten_percent">#1A000000</color>
+    <color name="hintColor">#808080</color>
+    <color name="lightGrey">#D3D3D3</color>
+    <color name="textBoxColor">#F0EDFF</color>
+
+</resources>

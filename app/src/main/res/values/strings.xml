@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PracticeProject</string>
+    <string name="full_name">Full Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="address">Address</string>
+    <string name="email">Email</string>
+    <string name="check_the_box_to_become_a_donor">Check the box to become a Donor.</string>
+</resources>
